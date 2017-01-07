@@ -1,0 +1,10 @@
+nguage: python
+python:
+  - "3.5"
+
+script:
+  - cd noflash
+  - python manage.py test
+
+notifications:
+  email: false
