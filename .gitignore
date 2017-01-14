@@ -1,8 +1,11 @@
-led / optimized / DLL files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.classi
 *.pyc
+
+# C extensions
+*.so
 
 # virtualenv
 .venv/
