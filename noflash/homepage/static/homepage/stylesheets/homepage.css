@@ -1,0 +1,33 @@
+.homepage-container {
+    width: 100%;
+}
+
+.search-bar-container {
+    width: 30%;
+    margin: auto;
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+.search {
+    padding: 8px 15px;
+    background: rgba(50, 50, 50, 0.2);
+    border: 0px solid #dbdbdb;
+}
+
+.button {
+    position: relative;
+    padding: 6px 15px;
+    left: -8px;
+    background-color: #207cca;
+    border: 2px solod #207cca;
+    color: #fafafa;
+}
+
+.button:hover {
+    background-color: #fafafa;
+    color: #207cca;
+}

@@ -1,0 +1,17 @@
+<div class="homepage-container">
+
+  <div class="search-bar-container">
+    {% load staticfiles %}
+
+    <link rel="stylesheet" href="{% static "homepage/stylesheets/homepage.css" %}" />
+
+    <img src="{% static "homepage/assets/logo.png" %}" alt="logo"></img>
+
+    <form class="form">
+        <input type="text" name="summonername" placeholder="Search summoner">
+        <input class="button" type="button" value="Search">
+    </form>
+
+  </div>
+
+</div>

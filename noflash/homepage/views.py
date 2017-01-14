@@ -2,4 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def homepage(request):
-    return HttpResponse('You are at homepage.')
+    return render(request, 'homepage/homepage.html', {})
